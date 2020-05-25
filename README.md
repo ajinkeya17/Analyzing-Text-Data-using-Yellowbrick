@@ -1,2 +1,3 @@
 # Analyzing-Text-Data-using-Yellowbrick
-A corpus of data of hobbies is provided and after Vectorization of data the Similarity of Documents is computed by using various metrics and visualized the same using Yellowbrick
+
+A corpus of various documents related to hobbies such as books,cinemas,gaming,sports,cooking are available(request for the same if needed) In the notebook we have vectorized the corpus using TfIdf Vectorization and then performed document similarity task with various metrics like euclidian,manhattan distance,Bray Curtis Dissimilarity,Canberra Distance,Cosine measure were used and their respective results were visulaized using TSNE from Yellowbrick library and finally also demonstrated how methods like K means can also be used as a preliminary measure to visualize general document similarity and grouping.
